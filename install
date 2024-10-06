@@ -2,6 +2,11 @@
 
 go build -o colat ./cmd/main.go
 
+echo "sample"
 ./colat
+
+echo "moving to system so next just run colat"
+
+sudo mv colat /usr/bin
 
 rm -f colat
