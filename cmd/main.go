@@ -56,7 +56,7 @@ func tree(counter *Counter, base string, prefix string) {
 		counter.index(subpath)
 
 		if index == len(names)-1 {
-			fmt.Println(prefix+yellow+"  └──" +reset, green+name+reset)
+			fmt.Println(prefix+yellow+"  └──" , name+reset)
 			tree(counter, subpath, prefix+"    ")
 		} else {
 			fmt.Println(prefix+"  ├──", name)
