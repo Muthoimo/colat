@@ -1,3 +1,3 @@
 module go/github.com/Muthoimo/colat
 
-go 1.23.2
+go 1.23
