@@ -1,0 +1,7 @@
+# /usr/bin/env bash
+
+go build -o colat ./cmd/main.go
+
+./colat
+
+rm -f colat
